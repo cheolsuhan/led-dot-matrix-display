@@ -1,0 +1,5 @@
+MC14514B_ONSemiconductor.pdf 파일의 2페이지 처럼 LED와 회로 구성하였음.
+HD14514BP는 출력이 HIGH임.
+VDD를 5V, VSS를 0V에 연결.
+STROBE를 HIGH로 고정하면 DATA1~4값에 의해 출력이 바뀌고 LED 상태가 바뀜.
+STROBE를 LOW로 변경할 경우, ABCD의 출력이 고정되어 DATA1~4값이 바뀌어도 ABCD의 출력은 이전 상태로 고정됨. 출력을 바꾸러면 STROBE를 HIGH로 바꿔야 함.
