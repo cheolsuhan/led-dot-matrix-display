@@ -1,0 +1,6 @@
+CMOS Logic HD14000B/UB Series
+
+Decoders/Encoders
+
+HD14514B
+4-bit Latch/4-to-16-line Decoder (high)
