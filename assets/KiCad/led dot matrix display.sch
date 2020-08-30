@@ -458,8 +458,6 @@ Text Label 7700 3550 0    50   ~ 0
 S11
 Text Label 7700 3650 0    50   ~ 0
 S12
-Text Label 7700 3750 0    50   ~ 0
-S13
 Text Label 7700 3850 0    50   ~ 0
 S14
 Text Label 7700 3950 0    50   ~ 0
@@ -705,4 +703,82 @@ F 3 "~" H 8550 5600 50  0001 C CNN
 	1    8550 5600
 	0    1    1    0   
 $EndComp
+Entry Wire Line
+	3650 4050 3750 4150
+Entry Wire Line
+	3650 4150 3750 4250
+Entry Wire Line
+	3650 4250 3750 4350
+Entry Wire Line
+	3650 4350 3750 4450
+Entry Wire Line
+	3650 4450 3750 4550
+Entry Wire Line
+	3650 4550 3750 4650
+Entry Wire Line
+	3650 4650 3750 4750
+Entry Wire Line
+	3650 4750 3750 4850
+Text Label 7700 3750 0    50   ~ 0
+S13
+Entry Wire Line
+	7550 3350 7650 3250
+Entry Wire Line
+	7550 3450 7650 3350
+Entry Wire Line
+	7550 3550 7650 3450
+Entry Wire Line
+	7550 3650 7650 3550
+Entry Wire Line
+	7550 3750 7650 3650
+Entry Wire Line
+	7550 3850 7650 3750
+Entry Wire Line
+	7550 3950 7650 3850
+Entry Wire Line
+	7550 4050 7650 3950
+Wire Bus Line
+	7550 5950 3750 5950
+Entry Wire Line
+	3650 3850 3750 3750
+Entry Wire Line
+	3650 3750 3750 3650
+Entry Wire Line
+	3650 3650 3750 3550
+Entry Wire Line
+	3650 3550 3750 3450
+Entry Wire Line
+	3650 3450 3750 3350
+Entry Wire Line
+	3650 3350 3750 3250
+Entry Wire Line
+	3650 3250 3750 3150
+Entry Wire Line
+	3650 3150 3750 3050
+Entry Wire Line
+	5200 3100 5300 3200
+Entry Wire Line
+	5200 3200 5300 3300
+Entry Wire Line
+	5200 3300 5300 3400
+Entry Wire Line
+	5200 3400 5300 3500
+Entry Wire Line
+	5200 3500 5300 3600
+Entry Wire Line
+	5200 3600 5300 3700
+Entry Wire Line
+	5200 3700 5300 3800
+Entry Wire Line
+	5200 3800 5300 3900
+Wire Bus Line
+	3750 2800 5200 2800
+Wire Bus Line
+	3750 4150 3750 5950
+Wire Bus Line
+	7550 3350 7550 5950
+Wire Bus Line
+	3750 2800 3750 3750
+Wire Bus Line
+	5200 2800 5200 3800
 $EndSCHEMATC
