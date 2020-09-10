@@ -1,0 +1,1036 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MyICs:HD14514BP U?
+U 1 1 5F61B00A
+P 1950 4100
+F 0 "U?" H 2025 5375 50  0000 C CNN
+F 1 "HD14514BP" H 2025 5284 50  0000 C CNN
+F 2 "" H 2000 5250 50  0001 C CNN
+F 3 "" H 2000 5250 50  0001 C CNN
+	1    1950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F61B010
+P 1450 2950
+F 0 "#PWR?" H 1450 2800 50  0001 C CNN
+F 1 "VCC" H 1467 3123 50  0000 C CNN
+F 2 "" H 1450 2950 50  0001 C CNN
+F 3 "" H 1450 2950 50  0001 C CNN
+	1    1450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F61B016
+P 1450 4900
+F 0 "#PWR?" H 1450 4650 50  0001 C CNN
+F 1 "GND" H 1455 4727 50  0000 C CNN
+F 2 "" H 1450 4900 50  0001 C CNN
+F 3 "" H 1450 4900 50  0001 C CNN
+	1    1450 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2950 1450 3050
+Wire Wire Line
+	1450 3050 1550 3050
+Wire Wire Line
+	1550 4800 1450 4800
+Wire Wire Line
+	1450 4800 1450 4900
+$Comp
+L power:VCC #PWR?
+U 1 1 5F61B020
+P 2600 2950
+F 0 "#PWR?" H 2600 2800 50  0001 C CNN
+F 1 "VCC" H 2617 3123 50  0000 C CNN
+F 2 "" H 2600 2950 50  0001 C CNN
+F 3 "" H 2600 2950 50  0001 C CNN
+	1    2600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2950 2600 3050
+Wire Wire Line
+	2600 3050 2500 3050
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B028
+P 5200 1700
+F 0 "Q?" H 5390 1746 50  0000 L CNN
+F 1 "PN2222A" H 5390 1655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 1625 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5200 1700 50  0001 L CNN
+	1    5200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B02E
+P 4850 1700
+F 0 "R?" V 4643 1700 50  0000 C CNN
+F 1 "330" V 4734 1700 50  0000 C CNN
+F 2 "" V 4780 1700 50  0001 C CNN
+F 3 "~" H 4850 1700 50  0001 C CNN
+	1    4850 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F61B034
+P 5750 1200
+F 0 "#PWR?" H 5750 1050 50  0001 C CNN
+F 1 "VCC" H 5767 1373 50  0000 C CNN
+F 2 "" H 5750 1200 50  0001 C CNN
+F 3 "" H 5750 1200 50  0001 C CNN
+	1    5750 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1500 5300 1200
+Wire Wire Line
+	5300 1200 5750 1200
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B03C
+P 5200 2250
+F 0 "Q?" H 5390 2296 50  0000 L CNN
+F 1 "PN2222A" H 5390 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 2175 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5200 2250 50  0001 L CNN
+	1    5200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B042
+P 5200 2800
+F 0 "Q?" H 5390 2846 50  0000 L CNN
+F 1 "PN2222A" H 5390 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 2725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5200 2800 50  0001 L CNN
+	1    5200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B048
+P 5200 3350
+F 0 "Q?" H 5390 3396 50  0000 L CNN
+F 1 "PN2222A" H 5390 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 3275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5200 3350 50  0001 L CNN
+	1    5200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B04E
+P 5200 3900
+F 0 "Q?" H 5390 3946 50  0000 L CNN
+F 1 "PN2222A" H 5390 3855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 3825 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5200 3900 50  0001 L CNN
+	1    5200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B054
+P 5200 4450
+F 0 "Q?" H 5390 4496 50  0000 L CNN
+F 1 "PN2222A" H 5390 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 4375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5200 4450 50  0001 L CNN
+	1    5200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B05A
+P 5200 5000
+F 0 "Q?" H 5390 5046 50  0000 L CNN
+F 1 "PN2222A" H 5390 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 4925 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5200 5000 50  0001 L CNN
+	1    5200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B060
+P 5200 5550
+F 0 "Q?" H 5390 5596 50  0000 L CNN
+F 1 "PN2222A" H 5390 5505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 5475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 5200 5550 50  0001 L CNN
+	1    5200 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1200 5750 2050
+Wire Wire Line
+	5750 5350 5300 5350
+Connection ~ 5750 1200
+Wire Wire Line
+	5300 4800 5750 4800
+Connection ~ 5750 4800
+Wire Wire Line
+	5750 4800 5750 5350
+Wire Wire Line
+	5300 4250 5750 4250
+Connection ~ 5750 4250
+Wire Wire Line
+	5750 4250 5750 4800
+Wire Wire Line
+	5300 2050 5750 2050
+Connection ~ 5750 2050
+Wire Wire Line
+	5750 2050 5750 2600
+Wire Wire Line
+	5300 2600 5750 2600
+Connection ~ 5750 2600
+Wire Wire Line
+	5750 2600 5750 3150
+Wire Wire Line
+	5300 3150 5750 3150
+Connection ~ 5750 3150
+Wire Wire Line
+	5750 3150 5750 3700
+Wire Wire Line
+	5300 3700 5750 3700
+Connection ~ 5750 3700
+Wire Wire Line
+	5750 3700 5750 4250
+Wire Wire Line
+	4700 3600 4700 3900
+Wire Wire Line
+	4600 3700 4600 4450
+Wire Wire Line
+	4600 4450 4700 4450
+Wire Wire Line
+	4500 3800 4500 5000
+Wire Wire Line
+	4500 5000 4700 5000
+Wire Wire Line
+	4400 3900 4400 5550
+Wire Wire Line
+	4400 5550 4700 5550
+Wire Wire Line
+	4700 3500 4700 3350
+Wire Wire Line
+	4600 3400 4600 2800
+Wire Wire Line
+	4600 2800 4700 2800
+Wire Wire Line
+	4500 3300 4500 2250
+Wire Wire Line
+	4500 2250 4700 2250
+Wire Wire Line
+	4400 3200 4400 1700
+Wire Wire Line
+	4400 1700 4700 1700
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B089
+P 8300 1700
+F 0 "Q?" H 8490 1746 50  0000 L CNN
+F 1 "PN2222A" H 8490 1655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 1625 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8300 1700 50  0001 L CNN
+	1    8300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F61B08F
+P 8850 1200
+F 0 "#PWR?" H 8850 1050 50  0001 C CNN
+F 1 "VCC" H 8867 1373 50  0000 C CNN
+F 2 "" H 8850 1200 50  0001 C CNN
+F 3 "" H 8850 1200 50  0001 C CNN
+	1    8850 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1500 8400 1200
+Wire Wire Line
+	8400 1200 8850 1200
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B097
+P 8300 2250
+F 0 "Q?" H 8490 2296 50  0000 L CNN
+F 1 "PN2222A" H 8490 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 2175 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8300 2250 50  0001 L CNN
+	1    8300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B09D
+P 8300 2800
+F 0 "Q?" H 8490 2846 50  0000 L CNN
+F 1 "PN2222A" H 8490 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 2725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8300 2800 50  0001 L CNN
+	1    8300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B0A3
+P 8300 3350
+F 0 "Q?" H 8490 3396 50  0000 L CNN
+F 1 "PN2222A" H 8490 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 3275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8300 3350 50  0001 L CNN
+	1    8300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B0A9
+P 8300 3900
+F 0 "Q?" H 8490 3946 50  0000 L CNN
+F 1 "PN2222A" H 8490 3855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 3825 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8300 3900 50  0001 L CNN
+	1    8300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B0AF
+P 8300 4450
+F 0 "Q?" H 8490 4496 50  0000 L CNN
+F 1 "PN2222A" H 8490 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 4375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8300 4450 50  0001 L CNN
+	1    8300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B0B5
+P 8300 5000
+F 0 "Q?" H 8490 5046 50  0000 L CNN
+F 1 "PN2222A" H 8490 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 4925 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8300 5000 50  0001 L CNN
+	1    8300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5F61B0BB
+P 8300 5550
+F 0 "Q?" H 8490 5596 50  0000 L CNN
+F 1 "PN2222A" H 8490 5505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 5475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8300 5550 50  0001 L CNN
+	1    8300 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1200 8850 2050
+Wire Wire Line
+	8850 5350 8400 5350
+Connection ~ 8850 1200
+Wire Wire Line
+	8400 4800 8850 4800
+Connection ~ 8850 4800
+Wire Wire Line
+	8850 4800 8850 5350
+Wire Wire Line
+	8400 4250 8850 4250
+Connection ~ 8850 4250
+Wire Wire Line
+	8850 4250 8850 4800
+Wire Wire Line
+	8400 2050 8850 2050
+Connection ~ 8850 2050
+Wire Wire Line
+	8850 2050 8850 2600
+Wire Wire Line
+	8400 2600 8850 2600
+Connection ~ 8850 2600
+Wire Wire Line
+	8850 2600 8850 3150
+Wire Wire Line
+	8400 3150 8850 3150
+Connection ~ 8850 3150
+Wire Wire Line
+	8850 3150 8850 3700
+Wire Wire Line
+	8400 3700 8850 3700
+Connection ~ 8850 3700
+Wire Wire Line
+	8850 3700 8850 4250
+Wire Wire Line
+	7800 3600 7800 3900
+Wire Wire Line
+	7700 3700 7700 4450
+Wire Wire Line
+	7700 4450 7800 4450
+Wire Wire Line
+	7600 3800 7600 5000
+Wire Wire Line
+	7600 5000 7800 5000
+Wire Wire Line
+	7500 3900 7500 5550
+Wire Wire Line
+	7500 5550 7800 5550
+Wire Wire Line
+	7800 3500 7800 3350
+Wire Wire Line
+	7700 3400 7700 2800
+Wire Wire Line
+	7700 2800 7800 2800
+Wire Wire Line
+	7600 3300 7600 2250
+Wire Wire Line
+	7600 2250 7800 2250
+Wire Wire Line
+	7500 3200 7500 1700
+Wire Wire Line
+	7500 1700 7800 1700
+Wire Wire Line
+	2500 4100 2950 4100
+Wire Wire Line
+	2500 4200 2950 4200
+Wire Wire Line
+	2500 4300 2950 4300
+Wire Wire Line
+	2500 4400 2950 4400
+Wire Wire Line
+	2500 4500 2950 4500
+Wire Wire Line
+	2500 4600 2950 4600
+Wire Wire Line
+	2500 4700 2950 4700
+Wire Wire Line
+	2500 4800 2950 4800
+Text Label 2800 4100 0    50   ~ 0
+S8
+Text Label 2800 4200 0    50   ~ 0
+S9
+Text Label 2800 4300 0    50   ~ 0
+S10
+Text Label 2800 4400 0    50   ~ 0
+S11
+Text Label 2800 4500 0    50   ~ 0
+S12
+Text Label 2800 4600 0    50   ~ 0
+S13
+Text Label 2800 4700 0    50   ~ 0
+S14
+Text Label 2800 4800 0    50   ~ 0
+S15
+Wire Wire Line
+	7050 3200 7500 3200
+Wire Wire Line
+	7050 3900 7500 3900
+Text Label 7100 3200 0    50   ~ 0
+S8
+Text Label 7100 3300 0    50   ~ 0
+S9
+Text Label 7100 3400 0    50   ~ 0
+S10
+Text Label 7100 3500 0    50   ~ 0
+S11
+Text Label 7100 3600 0    50   ~ 0
+S12
+Text Label 7100 3800 0    50   ~ 0
+S14
+Text Label 7100 3900 0    50   ~ 0
+S15
+Wire Wire Line
+	7050 3300 7600 3300
+Wire Wire Line
+	7050 3400 7700 3400
+Wire Wire Line
+	7050 3500 7800 3500
+Wire Wire Line
+	7050 3600 7800 3600
+Wire Wire Line
+	7050 3700 7700 3700
+Wire Wire Line
+	7050 3800 7600 3800
+Wire Wire Line
+	2500 3200 2950 3200
+Wire Wire Line
+	2500 3300 2950 3300
+Wire Wire Line
+	2500 3400 2950 3400
+Wire Wire Line
+	2500 3500 2950 3500
+Wire Wire Line
+	2500 3600 2950 3600
+Wire Wire Line
+	2500 3700 2950 3700
+Wire Wire Line
+	2500 3800 2950 3800
+Wire Wire Line
+	2500 3900 2950 3900
+Text Label 2800 3200 0    50   ~ 0
+S0
+Text Label 2800 3300 0    50   ~ 0
+S1
+Text Label 2800 3400 0    50   ~ 0
+S2
+Text Label 2800 3500 0    50   ~ 0
+S3
+Text Label 2800 3600 0    50   ~ 0
+S4
+Text Label 2800 3700 0    50   ~ 0
+S5
+Text Label 2800 3800 0    50   ~ 0
+S6
+Text Label 2800 3900 0    50   ~ 0
+S7
+Wire Wire Line
+	3950 3200 4400 3200
+Wire Wire Line
+	3950 3900 4400 3900
+Text Label 4000 3200 0    50   ~ 0
+S0
+Text Label 4000 3300 0    50   ~ 0
+S1
+Text Label 4000 3400 0    50   ~ 0
+S2
+Text Label 4000 3500 0    50   ~ 0
+S3
+Text Label 4000 3600 0    50   ~ 0
+S4
+Text Label 4000 3700 0    50   ~ 0
+S5
+Text Label 4000 3800 0    50   ~ 0
+S6
+Text Label 4000 3900 0    50   ~ 0
+S7
+Wire Wire Line
+	3950 3300 4500 3300
+Wire Wire Line
+	3950 3400 4600 3400
+Wire Wire Line
+	3950 3500 4700 3500
+Wire Wire Line
+	3950 3600 4700 3600
+Wire Wire Line
+	3950 3700 4600 3700
+Wire Wire Line
+	3950 3800 4500 3800
+$Comp
+L Device:R R?
+U 1 1 5F61B123
+P 4850 2250
+F 0 "R?" V 4643 2250 50  0000 C CNN
+F 1 "330" V 4734 2250 50  0000 C CNN
+F 2 "" V 4780 2250 50  0001 C CNN
+F 3 "~" H 4850 2250 50  0001 C CNN
+	1    4850 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B129
+P 4850 2800
+F 0 "R?" V 4643 2800 50  0000 C CNN
+F 1 "330" V 4734 2800 50  0000 C CNN
+F 2 "" V 4780 2800 50  0001 C CNN
+F 3 "~" H 4850 2800 50  0001 C CNN
+	1    4850 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B12F
+P 4850 3350
+F 0 "R?" V 4643 3350 50  0000 C CNN
+F 1 "330" V 4734 3350 50  0000 C CNN
+F 2 "" V 4780 3350 50  0001 C CNN
+F 3 "~" H 4850 3350 50  0001 C CNN
+	1    4850 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B135
+P 4850 3900
+F 0 "R?" V 4643 3900 50  0000 C CNN
+F 1 "330" V 4734 3900 50  0000 C CNN
+F 2 "" V 4780 3900 50  0001 C CNN
+F 3 "~" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B13B
+P 4850 4450
+F 0 "R?" V 4643 4450 50  0000 C CNN
+F 1 "330" V 4734 4450 50  0000 C CNN
+F 2 "" V 4780 4450 50  0001 C CNN
+F 3 "~" H 4850 4450 50  0001 C CNN
+	1    4850 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B141
+P 4850 5000
+F 0 "R?" V 4643 5000 50  0000 C CNN
+F 1 "330" V 4734 5000 50  0000 C CNN
+F 2 "" V 4780 5000 50  0001 C CNN
+F 3 "~" H 4850 5000 50  0001 C CNN
+	1    4850 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B147
+P 4850 5550
+F 0 "R?" V 4643 5550 50  0000 C CNN
+F 1 "330" V 4734 5550 50  0000 C CNN
+F 2 "" V 4780 5550 50  0001 C CNN
+F 3 "~" H 4850 5550 50  0001 C CNN
+	1    4850 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B14D
+P 7950 1700
+F 0 "R?" V 7743 1700 50  0000 C CNN
+F 1 "330" V 7834 1700 50  0000 C CNN
+F 2 "" V 7880 1700 50  0001 C CNN
+F 3 "~" H 7950 1700 50  0001 C CNN
+	1    7950 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B153
+P 7950 2250
+F 0 "R?" V 7743 2250 50  0000 C CNN
+F 1 "330" V 7834 2250 50  0000 C CNN
+F 2 "" V 7880 2250 50  0001 C CNN
+F 3 "~" H 7950 2250 50  0001 C CNN
+	1    7950 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B159
+P 7950 2800
+F 0 "R?" V 7743 2800 50  0000 C CNN
+F 1 "330" V 7834 2800 50  0000 C CNN
+F 2 "" V 7880 2800 50  0001 C CNN
+F 3 "~" H 7950 2800 50  0001 C CNN
+	1    7950 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B15F
+P 7950 3350
+F 0 "R?" V 7743 3350 50  0000 C CNN
+F 1 "330" V 7834 3350 50  0000 C CNN
+F 2 "" V 7880 3350 50  0001 C CNN
+F 3 "~" H 7950 3350 50  0001 C CNN
+	1    7950 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B165
+P 7950 3900
+F 0 "R?" V 7743 3900 50  0000 C CNN
+F 1 "330" V 7834 3900 50  0000 C CNN
+F 2 "" V 7880 3900 50  0001 C CNN
+F 3 "~" H 7950 3900 50  0001 C CNN
+	1    7950 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B16B
+P 7950 4450
+F 0 "R?" V 7743 4450 50  0000 C CNN
+F 1 "330" V 7834 4450 50  0000 C CNN
+F 2 "" V 7880 4450 50  0001 C CNN
+F 3 "~" H 7950 4450 50  0001 C CNN
+	1    7950 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B171
+P 7950 5000
+F 0 "R?" V 7743 5000 50  0000 C CNN
+F 1 "330" V 7834 5000 50  0000 C CNN
+F 2 "" V 7880 5000 50  0001 C CNN
+F 3 "~" H 7950 5000 50  0001 C CNN
+	1    7950 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F61B177
+P 7950 5550
+F 0 "R?" V 7743 5550 50  0000 C CNN
+F 1 "330" V 7834 5550 50  0000 C CNN
+F 2 "" V 7880 5550 50  0001 C CNN
+F 3 "~" H 7950 5550 50  0001 C CNN
+	1    7950 5550
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	2950 4100 3050 4200
+Entry Wire Line
+	2950 4200 3050 4300
+Entry Wire Line
+	2950 4300 3050 4400
+Entry Wire Line
+	2950 4400 3050 4500
+Entry Wire Line
+	2950 4500 3050 4600
+Entry Wire Line
+	2950 4600 3050 4700
+Entry Wire Line
+	2950 4700 3050 4800
+Entry Wire Line
+	2950 4800 3050 4900
+Text Label 7100 3700 0    50   ~ 0
+S13
+Entry Wire Line
+	6950 3300 7050 3200
+Entry Wire Line
+	6950 3400 7050 3300
+Entry Wire Line
+	6950 3500 7050 3400
+Entry Wire Line
+	6950 3600 7050 3500
+Entry Wire Line
+	6950 3700 7050 3600
+Entry Wire Line
+	6950 3800 7050 3700
+Entry Wire Line
+	6950 3900 7050 3800
+Entry Wire Line
+	6950 4000 7050 3900
+Entry Wire Line
+	2950 3900 3050 3800
+Entry Wire Line
+	2950 3800 3050 3700
+Entry Wire Line
+	2950 3700 3050 3600
+Entry Wire Line
+	2950 3600 3050 3500
+Entry Wire Line
+	2950 3500 3050 3400
+Entry Wire Line
+	2950 3400 3050 3300
+Entry Wire Line
+	2950 3300 3050 3200
+Entry Wire Line
+	2950 3200 3050 3100
+Entry Wire Line
+	3850 3100 3950 3200
+Entry Wire Line
+	3850 3200 3950 3300
+Entry Wire Line
+	3850 3300 3950 3400
+Entry Wire Line
+	3850 3400 3950 3500
+Entry Wire Line
+	3850 3500 3950 3600
+Entry Wire Line
+	3850 3600 3950 3700
+Entry Wire Line
+	3850 3700 3950 3800
+Entry Wire Line
+	3850 3800 3950 3900
+Text HLabel 1200 3200 0    50   Input ~ 0
+D1
+Text HLabel 1200 3300 0    50   Input ~ 0
+D2
+Text HLabel 1200 3400 0    50   Input ~ 0
+D3
+Text HLabel 1200 3500 0    50   Input ~ 0
+D4
+Wire Wire Line
+	1200 3200 1550 3200
+Wire Wire Line
+	1200 3300 1550 3300
+Wire Wire Line
+	1200 3400 1550 3400
+Wire Wire Line
+	1200 3500 1550 3500
+Wire Wire Line
+	5300 1900 6050 1900
+Wire Wire Line
+	5300 2450 6050 2450
+Wire Wire Line
+	5300 3000 6050 3000
+Wire Wire Line
+	5300 3550 6050 3550
+Wire Wire Line
+	5300 4100 6050 4100
+Wire Wire Line
+	5300 4650 6050 4650
+Wire Wire Line
+	5300 5200 6050 5200
+Wire Wire Line
+	5300 5750 6050 5750
+Wire Wire Line
+	8400 1900 9150 1900
+Wire Wire Line
+	8400 2450 9150 2450
+Wire Wire Line
+	8400 3000 9150 3000
+Wire Wire Line
+	8400 3550 9150 3550
+Wire Wire Line
+	8400 4100 9150 4100
+Wire Wire Line
+	8400 4650 9150 4650
+Wire Wire Line
+	8400 5200 9150 5200
+Wire Wire Line
+	8400 5750 9150 5750
+Entry Wire Line
+	6050 5750 6150 5650
+Entry Wire Line
+	6050 5200 6150 5100
+Entry Wire Line
+	6050 4650 6150 4550
+Entry Wire Line
+	6050 4100 6150 4000
+Entry Wire Line
+	6050 3550 6150 3450
+Entry Wire Line
+	6050 3000 6150 2900
+Entry Wire Line
+	6050 2450 6150 2350
+Entry Wire Line
+	6050 1900 6150 1800
+Entry Wire Line
+	9150 5750 9250 5850
+Entry Wire Line
+	9150 5200 9250 5300
+Entry Wire Line
+	9150 4650 9250 4750
+Entry Wire Line
+	9150 4100 9250 4200
+Entry Wire Line
+	9150 3550 9250 3650
+Entry Wire Line
+	9150 3000 9250 3100
+Entry Wire Line
+	9150 2450 9250 2550
+Entry Wire Line
+	9150 1900 9250 2000
+Wire Bus Line
+	9250 6150 10000 6150
+Wire Bus Line
+	6150 850  10000 850 
+Wire Bus Line
+	6950 6150 3050 6150
+Wire Bus Line
+	3850 2800 3050 2800
+Entry Wire Line
+	10000 2950 10100 3050
+Entry Wire Line
+	10000 2850 10100 2950
+Entry Wire Line
+	10000 2750 10100 2850
+Entry Wire Line
+	10000 2650 10100 2750
+Entry Wire Line
+	10000 2550 10100 2650
+Entry Wire Line
+	10000 2450 10100 2550
+Entry Wire Line
+	10000 2350 10100 2450
+Entry Wire Line
+	10000 2250 10100 2350
+Entry Wire Line
+	10000 4050 10100 3950
+Entry Wire Line
+	10000 4150 10100 4050
+Entry Wire Line
+	10000 4250 10100 4150
+Entry Wire Line
+	10000 4350 10100 4250
+Entry Wire Line
+	10000 4450 10100 4350
+Entry Wire Line
+	10000 4550 10100 4450
+Entry Wire Line
+	10000 4650 10100 4550
+Entry Wire Line
+	10000 4750 10100 4650
+Wire Wire Line
+	10100 3050 10300 3050
+Wire Wire Line
+	10100 2950 10300 2950
+Wire Wire Line
+	10100 2850 10300 2850
+Wire Wire Line
+	10100 2750 10300 2750
+Wire Wire Line
+	10100 2650 10300 2650
+Wire Wire Line
+	10100 2550 10300 2550
+Wire Wire Line
+	10100 2450 10300 2450
+Wire Wire Line
+	10100 2350 10300 2350
+Wire Wire Line
+	10100 3950 10300 3950
+Wire Wire Line
+	10100 4050 10300 4050
+Wire Wire Line
+	10100 4150 10300 4150
+Wire Wire Line
+	10100 4250 10300 4250
+Wire Wire Line
+	10100 4350 10300 4350
+Wire Wire Line
+	10100 4450 10300 4450
+Wire Wire Line
+	10100 4550 10300 4550
+Wire Wire Line
+	10100 4650 10300 4650
+Text Label 5900 1900 0    50   ~ 0
+L0
+Text Label 5900 2450 0    50   ~ 0
+L1
+Text Label 5900 3000 0    50   ~ 0
+L2
+Text Label 5900 3550 0    50   ~ 0
+L3
+Text Label 5900 4100 0    50   ~ 0
+L4
+Text Label 5900 4650 0    50   ~ 0
+L5
+Text Label 5900 5200 0    50   ~ 0
+L6
+Text Label 5900 5750 0    50   ~ 0
+L7
+Text Label 9000 1900 0    50   ~ 0
+L8
+Text Label 9000 2450 0    50   ~ 0
+L9
+Text Label 9000 3000 0    50   ~ 0
+L10
+Text Label 9000 3550 0    50   ~ 0
+L11
+Text Label 9000 4100 0    50   ~ 0
+L12
+Text Label 9000 4650 0    50   ~ 0
+L13
+Text Label 9000 5200 0    50   ~ 0
+L14
+Text Label 9000 5750 0    50   ~ 0
+L15
+Text Label 10150 2350 0    50   ~ 0
+L0
+Text Label 10150 2450 0    50   ~ 0
+L1
+Text Label 10150 2550 0    50   ~ 0
+L2
+Text Label 10150 2650 0    50   ~ 0
+L3
+Text Label 10150 2750 0    50   ~ 0
+L4
+Text Label 10150 2850 0    50   ~ 0
+L5
+Text Label 10150 2950 0    50   ~ 0
+L6
+Text Label 10150 3050 0    50   ~ 0
+L7
+Text Label 10150 3950 0    50   ~ 0
+L8
+Text Label 10150 4050 0    50   ~ 0
+L9
+Text Label 10150 4150 0    50   ~ 0
+L10
+Text Label 10150 4250 0    50   ~ 0
+L11
+Text Label 10150 4350 0    50   ~ 0
+L12
+Text Label 10150 4450 0    50   ~ 0
+L13
+Text Label 10150 4550 0    50   ~ 0
+L14
+Text Label 10150 4650 0    50   ~ 0
+L15
+Text HLabel 10300 2350 2    50   Output ~ 0
+L0
+Text HLabel 10300 2450 2    50   Output ~ 0
+L1
+Text HLabel 10300 2550 2    50   Output ~ 0
+L2
+Text HLabel 10300 2650 2    50   Output ~ 0
+L3
+Text HLabel 10300 2750 2    50   Output ~ 0
+L4
+Text HLabel 10300 2850 2    50   Output ~ 0
+L5
+Text HLabel 10300 2950 2    50   Output ~ 0
+L6
+Text HLabel 10300 3050 2    50   Output ~ 0
+L7
+Text HLabel 10300 3950 2    50   Output ~ 0
+L8
+Text HLabel 10300 4050 2    50   Output ~ 0
+L9
+Text HLabel 10300 4150 2    50   Output ~ 0
+L10
+Text HLabel 10300 4250 2    50   Output ~ 0
+L11
+Text HLabel 10300 4350 2    50   Output ~ 0
+L12
+Text HLabel 10300 4450 2    50   Output ~ 0
+L13
+Text HLabel 10300 4550 2    50   Output ~ 0
+L14
+Text HLabel 10300 4650 2    50   Output ~ 0
+L15
+Wire Bus Line
+	10000 4050 10000 6150
+Wire Bus Line
+	9250 2000 9250 6150
+Wire Bus Line
+	6150 850  6150 5650
+Wire Bus Line
+	3850 2800 3850 3800
+Wire Bus Line
+	3050 2800 3050 3800
+Wire Bus Line
+	6950 3300 6950 6150
+Wire Bus Line
+	3050 4200 3050 6150
+Wire Bus Line
+	10000 850  10000 2950
+$EndSCHEMATC

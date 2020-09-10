@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -2416,4 +2416,52 @@ Wire Wire Line
 Connection ~ 8550 5000
 Wire Wire Line
 	8550 5000 8550 4500
+Text HLabel 3050 5300 0    50   Input ~ 0
+D1
+Text HLabel 3050 5800 0    50   Input ~ 0
+D0
+Text HLabel 3050 4800 0    50   Input ~ 0
+D2
+Text HLabel 3050 4300 0    50   Input ~ 0
+D3
+Text HLabel 3050 3750 0    50   Input ~ 0
+D4
+Text HLabel 3050 3250 0    50   Input ~ 0
+D5
+Text HLabel 3050 2750 0    50   Input ~ 0
+D6
+Text HLabel 3050 2250 0    50   Input ~ 0
+D7
+Text HLabel 8550 1650 1    50   Output ~ 0
+C0
+Text HLabel 8250 1650 1    50   Output ~ 0
+C1
+Text HLabel 7950 1650 1    50   Output ~ 0
+C2
+Text HLabel 7650 1650 1    50   Output ~ 0
+C3
+Text HLabel 7350 1650 1    50   Output ~ 0
+C4
+Text HLabel 7050 1650 1    50   Output ~ 0
+C5
+Text HLabel 6750 1650 1    50   Output ~ 0
+C6
+Text HLabel 6450 1650 1    50   Output ~ 0
+C7
+Text HLabel 6150 1650 1    50   Output ~ 0
+C8
+Text HLabel 5850 1650 1    50   Output ~ 0
+C9
+Text HLabel 5550 1650 1    50   Output ~ 0
+C10
+Text HLabel 5250 1650 1    50   Output ~ 0
+C11
+Text HLabel 4950 1650 1    50   Output ~ 0
+C12
+Text HLabel 4650 1650 1    50   Output ~ 0
+C13
+Text HLabel 4350 1650 1    50   Output ~ 0
+C14
+Text HLabel 4050 1650 1    50   Output ~ 0
+C15
 $EndSCHEMATC

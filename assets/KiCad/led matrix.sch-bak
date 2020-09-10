@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -13,43 +13,384 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x16 J?
-U 1 1 602B869D
-P 1300 5950
-F 0 "J?" H 1218 4925 50  0000 C CNN
-F 1 "Conn_01x16" H 1218 5016 50  0000 C CNN
-F 2 "" H 1300 5950 50  0001 C CNN
-F 3 "~" H 1300 5950 50  0001 C CNN
-	1    1300 5950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x16 J?
-U 1 1 602BB3B0
-P 1500 2800
-F 0 "J?" H 1418 1775 50  0000 C CNN
-F 1 "Conn_01x16" H 1418 1866 50  0000 C CNN
-F 2 "" H 1500 2800 50  0001 C CNN
-F 3 "~" H 1500 2800 50  0001 C CNN
-	1    1500 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x16 J?
-U 1 1 602BBC4F
-P 3950 850
-F 0 "J?" V 4167 796 50  0000 C CNN
-F 1 "Conn_01x16" V 4076 796 50  0000 C CNN
-F 2 "" H 3950 850 50  0001 C CNN
-F 3 "~" H 3950 850 50  0001 C CNN
-	1    3950 850 
-	0    -1   -1   0   
-$EndComp
 $Sheet
-S 2700 1450 2400 2550
+S 5000 1500 2000 2000
 U 602BEA04
-F0 "led 16x16" 50
-F1 "led 16x16.sch" 50
+F0 "led-a" 50
+F1 "led-a.sch" 50
+F2 "D1" I L 5000 3150 50 
+F3 "D0" I L 5000 3250 50 
+F4 "D2" I L 5000 3050 50 
+F5 "D3" I L 5000 2950 50 
+F6 "D4" I L 5000 2850 50 
+F7 "D5" I L 5000 2750 50 
+F8 "D6" I L 5000 2650 50 
+F9 "D7" I L 5000 2550 50 
+F10 "C0" O R 7000 3250 50 
+F11 "C1" O R 7000 3150 50 
+F12 "C2" O R 7000 3050 50 
+F13 "C3" O R 7000 2950 50 
+F14 "C4" O R 7000 2850 50 
+F15 "C5" O R 7000 2750 50 
+F16 "C6" O R 7000 2650 50 
+F17 "C7" O R 7000 2550 50 
+F18 "C8" O R 7000 2450 50 
+F19 "C9" O R 7000 2350 50 
+F20 "C10" O R 7000 2250 50 
+F21 "C11" O R 7000 2150 50 
+F22 "C12" O R 7000 2050 50 
+F23 "C13" O R 7000 1950 50 
+F24 "C14" O R 7000 1850 50 
+F25 "C15" O R 7000 1750 50 
+F26 "D8" I L 5000 2450 50 
+F27 "D9" I L 5000 2350 50 
+F28 "D10" I L 5000 2250 50 
+F29 "D11" I L 5000 2150 50 
+F30 "D12" I L 5000 2050 50 
+F31 "D13" I L 5000 1950 50 
+F32 "D14" I L 5000 1850 50 
+F33 "D15" I L 5000 1750 50 
 $EndSheet
+$Sheet
+S 5000 4000 2000 2000
+U 5F5ED74D
+F0 "led-b" 50
+F1 "led-b.sch" 50
+F2 "D1" I L 5000 5650 50 
+F3 "D0" I L 5000 5750 50 
+F4 "D2" I L 5000 5550 50 
+F5 "D3" I L 5000 5450 50 
+F6 "D4" I L 5000 5350 50 
+F7 "D5" I L 5000 5250 50 
+F8 "D6" I L 5000 5150 50 
+F9 "D7" I L 5000 5050 50 
+F10 "C0" O R 7000 5750 50 
+F11 "C1" O R 7000 5650 50 
+F12 "C2" O R 7000 5550 50 
+F13 "C3" O R 7000 5450 50 
+F14 "C4" O R 7000 5350 50 
+F15 "C5" O R 7000 5250 50 
+F16 "C6" O R 7000 5150 50 
+F17 "C7" O R 7000 5050 50 
+F18 "C8" O R 7000 4950 50 
+F19 "C9" O R 7000 4850 50 
+F20 "C10" O R 7000 4750 50 
+F21 "C11" O R 7000 4650 50 
+F22 "C12" O R 7000 4550 50 
+F23 "C13" O R 7000 4450 50 
+F24 "C14" O R 7000 4350 50 
+F25 "C15" O R 7000 4250 50 
+F26 "D8" I L 5000 4950 50 
+F27 "D9" I L 5000 4850 50 
+F28 "D10" I L 5000 4750 50 
+F29 "D11" I L 5000 4650 50 
+F30 "D12" I L 5000 4550 50 
+F31 "D13" I L 5000 4450 50 
+F32 "D14" I L 5000 4350 50 
+F33 "D15" I L 5000 4250 50 
+$EndSheet
+Wire Wire Line
+	7000 5750 7100 5750
+Wire Wire Line
+	7000 5650 7150 5650
+Wire Wire Line
+	7000 5550 7200 5550
+Wire Wire Line
+	7000 5450 7250 5450
+Wire Wire Line
+	7000 5350 7300 5350
+Wire Wire Line
+	7000 5250 7350 5250
+Wire Wire Line
+	7000 5150 7400 5150
+Wire Wire Line
+	7000 5050 7450 5050
+Wire Wire Line
+	7000 4950 7500 4950
+Wire Wire Line
+	7000 4850 7550 4850
+Wire Wire Line
+	7000 4750 7600 4750
+Wire Wire Line
+	7000 4650 7650 4650
+Wire Wire Line
+	7000 4550 7700 4550
+Wire Wire Line
+	7000 4450 7750 4450
+Wire Wire Line
+	7000 4350 7800 4350
+Wire Wire Line
+	7000 4250 7850 4250
+Wire Wire Line
+	7000 3250 7100 3250
+Wire Wire Line
+	7100 3250 7100 5750
+Connection ~ 7100 5750
+Wire Wire Line
+	7100 5750 8000 5750
+Wire Wire Line
+	7000 3150 7150 3150
+Wire Wire Line
+	7150 3150 7150 5650
+Connection ~ 7150 5650
+Wire Wire Line
+	7150 5650 8000 5650
+Wire Wire Line
+	7000 3050 7200 3050
+Wire Wire Line
+	7200 3050 7200 5550
+Connection ~ 7200 5550
+Wire Wire Line
+	7200 5550 8000 5550
+Wire Wire Line
+	7000 2950 7250 2950
+Wire Wire Line
+	7250 2950 7250 5450
+Connection ~ 7250 5450
+Wire Wire Line
+	7250 5450 8000 5450
+Wire Wire Line
+	7000 2850 7300 2850
+Wire Wire Line
+	7300 2850 7300 5350
+Connection ~ 7300 5350
+Wire Wire Line
+	7300 5350 8000 5350
+Wire Wire Line
+	7000 2750 7350 2750
+Wire Wire Line
+	7350 2750 7350 5250
+Connection ~ 7350 5250
+Wire Wire Line
+	7350 5250 8000 5250
+Wire Wire Line
+	7000 2650 7400 2650
+Wire Wire Line
+	7400 2650 7400 5150
+Connection ~ 7400 5150
+Wire Wire Line
+	7400 5150 8000 5150
+Wire Wire Line
+	7000 2550 7450 2550
+Wire Wire Line
+	7450 2550 7450 5050
+Connection ~ 7450 5050
+Wire Wire Line
+	7450 5050 8000 5050
+Wire Wire Line
+	7000 2450 7500 2450
+Wire Wire Line
+	7500 2450 7500 4950
+Connection ~ 7500 4950
+Wire Wire Line
+	7500 4950 8000 4950
+Wire Wire Line
+	7000 2350 7550 2350
+Wire Wire Line
+	7550 2350 7550 4850
+Connection ~ 7550 4850
+Wire Wire Line
+	7550 4850 8000 4850
+Wire Wire Line
+	7000 2250 7600 2250
+Wire Wire Line
+	7600 2250 7600 4750
+Connection ~ 7600 4750
+Wire Wire Line
+	7600 4750 8000 4750
+Wire Wire Line
+	7000 2150 7650 2150
+Wire Wire Line
+	7650 2150 7650 4650
+Connection ~ 7650 4650
+Wire Wire Line
+	7650 4650 8000 4650
+Wire Wire Line
+	7000 2050 7700 2050
+Wire Wire Line
+	7700 2050 7700 4550
+Connection ~ 7700 4550
+Wire Wire Line
+	7700 4550 8000 4550
+Wire Wire Line
+	7000 1950 7750 1950
+Wire Wire Line
+	7750 1950 7750 4450
+Connection ~ 7750 4450
+Wire Wire Line
+	7750 4450 8000 4450
+Wire Wire Line
+	7000 1850 7800 1850
+Wire Wire Line
+	7800 1850 7800 4350
+Connection ~ 7800 4350
+Wire Wire Line
+	7800 4350 8000 4350
+Wire Wire Line
+	7000 1750 7850 1750
+Wire Wire Line
+	7850 1750 7850 4250
+Connection ~ 7850 4250
+Wire Wire Line
+	7850 4250 8000 4250
+Wire Wire Line
+	5000 2550 4500 2550
+Wire Wire Line
+	5000 2650 4500 2650
+Wire Wire Line
+	4500 2750 5000 2750
+Wire Wire Line
+	4500 2850 5000 2850
+Wire Wire Line
+	4500 2950 5000 2950
+Wire Wire Line
+	4500 3050 5000 3050
+Wire Wire Line
+	4500 3150 5000 3150
+Wire Wire Line
+	4500 3250 5000 3250
+Wire Wire Line
+	4500 5050 5000 5050
+Wire Wire Line
+	4500 5150 5000 5150
+Wire Wire Line
+	4500 5250 5000 5250
+Wire Wire Line
+	4500 5350 5000 5350
+Wire Wire Line
+	4500 5450 5000 5450
+Wire Wire Line
+	4500 5550 5000 5550
+Wire Wire Line
+	4500 5650 5000 5650
+Wire Wire Line
+	4500 5750 5000 5750
+Text HLabel 8000 5750 2    50   Output ~ 0
+C0
+Text HLabel 8000 5650 2    50   Output ~ 0
+C1
+Text HLabel 8000 5550 2    50   Output ~ 0
+C2
+Text HLabel 8000 5450 2    50   Output ~ 0
+C3
+Text HLabel 8000 5350 2    50   Output ~ 0
+C4
+Text HLabel 8000 5250 2    50   Output ~ 0
+C5
+Text HLabel 8000 5150 2    50   Output ~ 0
+C6
+Text HLabel 8000 5050 2    50   Output ~ 0
+C7
+Text HLabel 8000 4950 2    50   Output ~ 0
+C8
+Text HLabel 8000 4850 2    50   Output ~ 0
+C9
+Text HLabel 8000 4750 2    50   Output ~ 0
+C10
+Text HLabel 8000 4650 2    50   Output ~ 0
+C11
+Text HLabel 8000 4550 2    50   Output ~ 0
+C12
+Text HLabel 8000 4450 2    50   Output ~ 0
+C13
+Text HLabel 8000 4350 2    50   Output ~ 0
+C14
+Text HLabel 8000 4250 2    50   Output ~ 0
+C15
+Text HLabel 4500 3250 0    50   Input ~ 0
+DA0
+Text HLabel 4500 3150 0    50   Input ~ 0
+DA1
+Text HLabel 4500 3050 0    50   Input ~ 0
+DA2
+Text HLabel 4500 2950 0    50   Input ~ 0
+DA3
+Text HLabel 4500 2850 0    50   Input ~ 0
+DA4
+Text HLabel 4500 2750 0    50   Input ~ 0
+DA5
+Text HLabel 4500 2650 0    50   Input ~ 0
+DA6
+Text HLabel 4500 2550 0    50   Input ~ 0
+DA7
+Text HLabel 4500 5750 0    50   Input ~ 0
+DB0
+Text HLabel 4500 5650 0    50   Input ~ 0
+DB1
+Text HLabel 4500 5550 0    50   Input ~ 0
+DB2
+Text HLabel 4500 5450 0    50   Input ~ 0
+DB3
+Text HLabel 4500 5350 0    50   Input ~ 0
+DB4
+Text HLabel 4500 5250 0    50   Input ~ 0
+DB5
+Text HLabel 4500 5150 0    50   Input ~ 0
+DB6
+Text HLabel 4500 5050 0    50   Input ~ 0
+DB7
+Text HLabel 4500 2450 0    50   Input ~ 0
+DA8
+Text HLabel 4500 2350 0    50   Input ~ 0
+DA9
+Text HLabel 4500 2250 0    50   Input ~ 0
+DA10
+Text HLabel 4500 2150 0    50   Input ~ 0
+DA11
+Text HLabel 4500 2050 0    50   Input ~ 0
+DA12
+Text HLabel 4500 1950 0    50   Input ~ 0
+DA13
+Text HLabel 4500 1850 0    50   Input ~ 0
+DA14
+Text HLabel 4500 1750 0    50   Input ~ 0
+DA15
+Wire Wire Line
+	4500 1750 5000 1750
+Wire Wire Line
+	4500 1850 5000 1850
+Wire Wire Line
+	4500 1950 5000 1950
+Wire Wire Line
+	4500 2050 5000 2050
+Wire Wire Line
+	4500 2150 5000 2150
+Wire Wire Line
+	4500 2250 5000 2250
+Wire Wire Line
+	4500 2350 5000 2350
+Wire Wire Line
+	4500 2450 5000 2450
+Text HLabel 4500 4950 0    50   Input ~ 0
+DB8
+Text HLabel 4500 4850 0    50   Input ~ 0
+DB9
+Text HLabel 4500 4750 0    50   Input ~ 0
+DB10
+Text HLabel 4500 4650 0    50   Input ~ 0
+DB11
+Text HLabel 4500 4550 0    50   Input ~ 0
+DB12
+Text HLabel 4500 4450 0    50   Input ~ 0
+DB13
+Text HLabel 4500 4350 0    50   Input ~ 0
+DB14
+Text HLabel 4500 4250 0    50   Input ~ 0
+DB15
+Wire Wire Line
+	4500 4950 5000 4950
+Wire Wire Line
+	4500 4850 5000 4850
+Wire Wire Line
+	4500 4750 5000 4750
+Wire Wire Line
+	4500 4650 5000 4650
+Wire Wire Line
+	4500 4550 5000 4550
+Wire Wire Line
+	4500 4450 5000 4450
+Wire Wire Line
+	4500 4350 5000 4350
+Wire Wire Line
+	4500 4250 5000 4250
 $EndSCHEMATC
