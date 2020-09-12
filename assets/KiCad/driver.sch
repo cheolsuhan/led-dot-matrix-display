@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -65,50 +65,14 @@ F19 "L13" O R 6500 5600 50
 F20 "L14" O R 6500 5700 50 
 F21 "L15" O R 6500 5800 50 
 $EndSheet
-Wire Wire Line
-	4500 1700 4400 1700
-Wire Wire Line
-	4500 1800 4300 1800
-Wire Wire Line
-	4500 1900 4200 1900
-Wire Wire Line
-	4500 2000 4100 2000
-Wire Wire Line
-	4500 4200 4400 4200
-Wire Wire Line
-	4400 4200 4400 1700
-Connection ~ 4400 1700
-Wire Wire Line
-	4400 1700 3000 1700
-Wire Wire Line
-	4500 4300 4300 4300
-Wire Wire Line
-	4300 4300 4300 1800
-Connection ~ 4300 1800
-Wire Wire Line
-	4300 1800 3000 1800
-Wire Wire Line
-	4500 4400 4200 4400
-Wire Wire Line
-	4200 4400 4200 1900
-Connection ~ 4200 1900
-Wire Wire Line
-	4200 1900 3000 1900
-Wire Wire Line
-	4500 4500 4100 4500
-Wire Wire Line
-	4100 4500 4100 2000
-Connection ~ 4100 2000
-Wire Wire Line
-	4100 2000 3000 2000
 Text HLabel 3000 1700 0    50   Input ~ 0
-D1
+DA1
 Text HLabel 3000 1800 0    50   Input ~ 0
-D2
+DA2
 Text HLabel 3000 1900 0    50   Input ~ 0
-D3
+DA3
 Text HLabel 3000 2000 0    50   Input ~ 0
-D4
+DA4
 Wire Wire Line
 	6500 1700 8000 1700
 Wire Wire Line
@@ -237,4 +201,28 @@ Text HLabel 8000 5700 2    50   Output ~ 0
 LB14
 Text HLabel 8000 5800 2    50   Output ~ 0
 LB15
+Wire Wire Line
+	3000 2000 4500 2000
+Wire Wire Line
+	3000 1900 4500 1900
+Wire Wire Line
+	3000 1800 4500 1800
+Wire Wire Line
+	3000 1700 4500 1700
+Text HLabel 3000 4200 0    50   Input ~ 0
+DB1
+Text HLabel 3000 4300 0    50   Input ~ 0
+DB2
+Text HLabel 3000 4400 0    50   Input ~ 0
+DB3
+Text HLabel 3000 4500 0    50   Input ~ 0
+DB4
+Wire Wire Line
+	3000 4200 4500 4200
+Wire Wire Line
+	3000 4300 4500 4300
+Wire Wire Line
+	3000 4400 4500 4400
+Wire Wire Line
+	3000 4500 4500 4500
 $EndSCHEMATC
