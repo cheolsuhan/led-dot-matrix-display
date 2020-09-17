@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -1017,6 +1017,10 @@ Text HLabel 10300 4550 2    50   Output ~ 0
 L14
 Text HLabel 10300 4650 2    50   Output ~ 0
 L15
+Wire Wire Line
+	1550 4700 1450 4700
+Wire Wire Line
+	1450 4700 1450 4800
 Wire Bus Line
 	10000 4050 10000 6150
 Wire Bus Line
@@ -1033,4 +1037,5 @@ Wire Bus Line
 	3050 4200 3050 6150
 Wire Bus Line
 	10000 850  10000 2950
+Connection ~ 1450 4800
 $EndSCHEMATC
