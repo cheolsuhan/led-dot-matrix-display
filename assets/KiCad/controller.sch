@@ -33,14 +33,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 3850 5400 3850
 Wire Wire Line
-	5000 3950 5400 3950
-Wire Wire Line
-	5000 4050 5400 4050
-Wire Wire Line
-	5000 4150 5400 4150
-Wire Wire Line
-	5000 4250 5400 4250
-Wire Wire Line
 	6600 5350 7000 5350
 Wire Wire Line
 	7000 5250 6600 5250
@@ -73,21 +65,13 @@ Wire Wire Line
 Wire Wire Line
 	5000 5350 5400 5350
 Text HLabel 5000 3550 0    50   Output ~ 0
-DA1
+D1
 Text HLabel 5000 3650 0    50   Output ~ 0
-DA2
+D2
 Text HLabel 5000 3750 0    50   Output ~ 0
-DA3
+D3
 Text HLabel 5000 3850 0    50   Output ~ 0
-DA4
-Text HLabel 5000 3950 0    50   Output ~ 0
-DB1
-Text HLabel 5000 4050 0    50   Output ~ 0
-DB2
-Text HLabel 5000 4150 0    50   Output ~ 0
-DB3
-Text HLabel 5000 4250 0    50   Output ~ 0
-DB4
+D4
 Text HLabel 7000 5350 2    50   Input ~ 0
 C0
 Text HLabel 7000 5250 2    50   Input ~ 0
@@ -120,4 +104,12 @@ Text HLabel 5000 5250 0    50   Input ~ 0
 C14
 Text HLabel 5000 5350 0    50   Input ~ 0
 C15
+Wire Wire Line
+	5400 3950 5000 3950
+Wire Wire Line
+	5000 4050 5400 4050
+Text HLabel 5000 3950 0    50   Output ~ 0
+INH-A
+Text HLabel 5000 4050 0    50   Output ~ 0
+INH-B
 $EndSCHEMATC

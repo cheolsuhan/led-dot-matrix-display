@@ -1017,10 +1017,10 @@ Text HLabel 10300 4550 2    50   Output ~ 0
 L14
 Text HLabel 10300 4650 2    50   Output ~ 0
 L15
+Text HLabel 1200 3650 0    50   Input ~ 0
+INH
 Wire Wire Line
-	1550 4700 1450 4700
-Wire Wire Line
-	1450 4700 1450 4800
+	1200 3650 1550 3650
 Wire Bus Line
 	10000 4050 10000 6150
 Wire Bus Line
@@ -1037,5 +1037,4 @@ Wire Bus Line
 	3050 4200 3050 6150
 Wire Bus Line
 	10000 850  10000 2950
-Connection ~ 1450 4800
 $EndSCHEMATC

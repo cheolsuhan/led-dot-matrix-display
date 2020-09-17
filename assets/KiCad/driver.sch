@@ -38,6 +38,7 @@ F18 "L12" O R 6500 3000 50
 F19 "L13" O R 6500 3100 50 
 F20 "L14" O R 6500 3200 50 
 F21 "L15" O R 6500 3300 50 
+F22 "INH" I L 4500 2200 50 
 $EndSheet
 $Sheet
 S 4500 4000 2000 2000
@@ -64,15 +65,16 @@ F18 "L12" O R 6500 5500 50
 F19 "L13" O R 6500 5600 50 
 F20 "L14" O R 6500 5700 50 
 F21 "L15" O R 6500 5800 50 
+F22 "INH" I L 4500 4700 50 
 $EndSheet
 Text HLabel 3000 1700 0    50   Input ~ 0
-DA1
+D1
 Text HLabel 3000 1800 0    50   Input ~ 0
-DA2
+D2
 Text HLabel 3000 1900 0    50   Input ~ 0
-DA3
+D3
 Text HLabel 3000 2000 0    50   Input ~ 0
-DA4
+D4
 Wire Wire Line
 	6500 1700 8000 1700
 Wire Wire Line
@@ -202,27 +204,47 @@ LB14
 Text HLabel 8000 5800 2    50   Output ~ 0
 LB15
 Wire Wire Line
-	3000 2000 4500 2000
+	3000 2000 4000 2000
 Wire Wire Line
-	3000 1900 4500 1900
+	3000 1900 4100 1900
 Wire Wire Line
-	3000 1800 4500 1800
+	3000 1800 4200 1800
 Wire Wire Line
-	3000 1700 4500 1700
-Text HLabel 3000 4200 0    50   Input ~ 0
-DB1
-Text HLabel 3000 4300 0    50   Input ~ 0
-DB2
-Text HLabel 3000 4400 0    50   Input ~ 0
-DB3
-Text HLabel 3000 4500 0    50   Input ~ 0
-DB4
+	3000 1700 4300 1700
 Wire Wire Line
-	3000 4200 4500 4200
+	4000 4500 4000 2000
 Wire Wire Line
-	3000 4300 4500 4300
+	4000 4500 4500 4500
+Connection ~ 4000 2000
 Wire Wire Line
-	3000 4400 4500 4400
+	4000 2000 4500 2000
 Wire Wire Line
-	3000 4500 4500 4500
+	4100 4400 4100 1900
+Wire Wire Line
+	4100 4400 4500 4400
+Connection ~ 4100 1900
+Wire Wire Line
+	4100 1900 4500 1900
+Wire Wire Line
+	4200 4300 4200 1800
+Wire Wire Line
+	4200 4300 4500 4300
+Connection ~ 4200 1800
+Wire Wire Line
+	4200 1800 4500 1800
+Wire Wire Line
+	4300 4200 4300 1700
+Wire Wire Line
+	4300 4200 4500 4200
+Connection ~ 4300 1700
+Wire Wire Line
+	4300 1700 4500 1700
+Text HLabel 3000 2200 0    50   Input ~ 0
+INH-A
+Text HLabel 3000 4700 0    50   Input ~ 0
+INH-B
+Wire Wire Line
+	3000 2200 4500 2200
+Wire Wire Line
+	3000 4700 4500 4700
 $EndSCHEMATC

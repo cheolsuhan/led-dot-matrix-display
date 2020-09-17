@@ -1094,9 +1094,7 @@ L14
 Text HLabel 10300 4700 2    50   Output ~ 0
 L15
 Wire Wire Line
-	1550 4750 1450 4750
-Wire Wire Line
-	1450 4750 1450 4850
+	1200 3700 1550 3700
 Wire Bus Line
 	10000 4100 10000 6200
 Wire Bus Line
@@ -1113,5 +1111,6 @@ Wire Bus Line
 	3050 4250 3050 6200
 Wire Bus Line
 	10000 900  10000 3000
-Connection ~ 1450 4850
+Text HLabel 1200 3700 0    50   Input ~ 0
+INH
 $EndSCHEMATC
