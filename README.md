@@ -1,18 +1,17 @@
 # led-dot-matrix-display
-32 x 16 크기의 LED 도트 매트릭스를 제작하고 있습니다.
+현재 32 x 16 크기의 LED 도트 매트릭스를 제작하고 있습니다.
 
-# 계획
+# 진행 상황
 1. 회로 설계
 	- [소자 테스트](./assets/IC_test_note_Korean.txt) (완료)
-	![IC test](./assets/IC_test.JPG)
+		- [테스트IC test](./assets/IC_test.JPG)
 	- 회로도 작성 (완료)
-	![회로도](./assets/KiCad/Schematic.pdf)
-	- 납땜
+		- [회로도](./assets/KiCad/Schematic.pdf)
+	- 납땜 (현재 진행 중)
+		- 전체적인 납땜은 끝났으나, 테스트 코드를 동작시킬때 깜박이거나 켜지지 않는 LED가 있음
+		- 켜지지 않거나 불안정하게 동작하는 LED의 납땜을 체크해야 함
 2. 코딩
-	- 기본 동작 테스트
-		- 한칸 출력
-		- 한줄 출력
-		- 화면 출력
+	- 화면 출력
 
 ## License
 
