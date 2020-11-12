@@ -1,0 +1,14 @@
+LED soldering problems
+
+Lower
+3,10
+7, 2~3
+5, 14
+6, 12~13
+16, 12
+
+Upper Section
+2, 4~5
+5, 8~9
+10, 8~9
+3, 6
